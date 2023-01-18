@@ -1,0 +1,22 @@
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+h1 {
+    font-size: 25px;
+    width: 200px;
+    background-color: red;
+}
+
+p {
+    background: bisque;
+    width: 200px;
+}
+li {
+    background-color: silver;
+}
+
+img {
+    width: 200px;
+}
