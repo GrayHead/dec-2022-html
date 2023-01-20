@@ -1,0 +1,44 @@
+img {
+    width: 200px;
+    display: block;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+p {
+    text-align: justify;
+    background: silver;
+    box-sizing: border-box;
+    border: 10px solid blanchedalmond;
+    padding: 30px;
+    /*margin: 10px; !*t r b l 10px*!*/
+    /*margin: 10px 20px;*/
+    /*margin: 10px 20px 30px;*/
+    /*margin: 10px 20px 30px 40px;*/
+    /*margin: 10px 0 0 0;*/
+    margin-top: 10px;
+    /*margin-right: ;*/
+    /*margin-left: ;*/
+    /*margin-bottom: ;*/
+
+}
+
+html, body {
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+a:visited {
+    color: #000000;
+}
+
+
+h2 {
+    background: lightcoral;
+    width: 50%;
+    margin-top: 20%; /*width of fathers block*/
+
+}
+

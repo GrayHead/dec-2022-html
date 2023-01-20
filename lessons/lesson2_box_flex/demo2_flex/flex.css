@@ -1,0 +1,48 @@
+
+body {
+    margin: 0;
+}
+
+/*FLEX CONTAINER start*/
+.father {
+    width: 100%;
+    height: 600px;
+    background: silver;
+
+    display: flex;
+    /*main axis*/
+    justify-content: flex-start;
+    /*cross axis*/
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+/*FLEX CONTAINER END*/
+
+.box {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box:nth-child(3n+1) {
+    background: indianred;
+    /*order: 3;*/
+}
+
+.box:nth-child(3n+2) {
+    background: cornflowerblue;
+    /*order: 2;*/
+}
+
+.box:nth-child(3n+3) {
+    background: #000;
+    color: #ffffff;
+}
+
