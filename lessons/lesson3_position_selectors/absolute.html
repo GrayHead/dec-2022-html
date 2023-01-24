@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <style>
+        .target {
+            width: 600px;
+            height: 600px;
+            background: silver;
+            position: relative;
+        }
+
+        .inner1 {
+            width: 200px;
+            height: 200px;
+            background: #000;
+            position: absolute;
+            z-index: 1;
+            right: -50px;
+
+        }
+
+        .inner2 {
+            width: 300px;
+            height: 300px;
+            background: coral;
+            position: absolute;
+
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="target">
+    <div class="inner1"></div>
+    <div class="inner2"></div>
+
+</div>
+
+<script>
+
+</script>
+</body>
+</html>
