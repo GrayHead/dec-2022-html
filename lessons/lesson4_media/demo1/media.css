@@ -1,0 +1,30 @@
+/*XS size*/
+@media screen and (min-width: 0 ) and (max-width: 575px) {
+
+}
+
+/*Small*/
+@media screen and (min-width: 576px ) and (max-width: 768px) {
+
+}
+
+
+/*Medium*/
+@media screen and (min-width: 768px ) and (max-width: 992px) {
+}
+
+/*Large*/
+@media screen and (min-width: 992px ) and (max-width: 1200px) {
+}
+
+/*X-Large*/
+@media screen and (min-width: 1200px ) and (max-width: 1400px) {
+}
+
+
+/*XX-Large*/
+@media screen and (min-width: 1400px ) {
+}
+
+
+
