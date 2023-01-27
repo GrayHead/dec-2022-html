@@ -1,0 +1,88 @@
+/*.main{*/
+/*    width: 500px;*/
+/*    height: 500px;*/
+/*    background-color:aqua;*/
+/*    display: flex;*/
+/*}*/
+
+/*.target {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: #121a33;*/
+/*    order: 2;*/
+/*}*/
+
+/*.a {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: red;*/
+/*    !*order: 2;*!*/
+/*}*/
+
+/*.df {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: cornflowerblue;*/
+/*    order: 1;*/
+/*}*/
+/*div{*/
+/*    width: 300px;*/
+/*    height: 300px;*/
+/*    background-color: cornflowerblue;*/
+/*    box-sizing: border-box;*/
+/*    padding: 50px;*/
+/*    margin: 50px;*/
+/*    border: 10px solid red;*/
+/*}*/
+
+button{
+    width: 400px;
+    height: 50px;
+    background-color: gold;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+button::before{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    background-color: bisque;
+    transform: skew(-25deg);
+    top: 0;
+    filter: blur(15px);
+    left: -200px;
+    animation: button 3500ms ease-in-out infinite;
+}
+
+@keyframes button {
+    0% {
+        left: -200px;
+    }
+    100% {
+        left: 150%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
