@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px){
+    .mobile__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav__list {
+        position: absolute;
+        width: 100%;
+        background-color: aqua;
+        flex-direction: column;
+        height: 95vh;
+        left: -200%;
+        top: 50px;
+        transition: left 1000ms;
+    }
+    .active .nav__list {
+        left: 0;
+    }
+}
